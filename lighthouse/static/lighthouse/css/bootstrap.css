@@ -6313,3 +6313,28 @@ button.close {
     overflow: visible !important;
   }
 }
+
+.container {
+      border: solid 1px black;
+    }
+
+.header {
+  background: green;
+  height: 25%;
+  padding-top: 2.2%;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 7rem;
+}
+
+.logo {
+  background: url('http://placekitten.com/200/200') no-repeat;
+  height: 100%;
+  width: 25%;
+}
+
+div[class^="col-"] {
+  border: solid 1px black;
+}

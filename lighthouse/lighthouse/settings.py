@@ -27,10 +27,10 @@ TEMPLATE_DEBUG = True
 ALLOWED_HOSTS = []
 
 # use our own bootstrap in static files
-BOOTSTRAP3_DEFAULTS = {
+BOOTSTRAP3 = {
   'jquery_url': 'static/lighthouse/js/jquery-1.10.2.min.js',
   'base_url': 'static/lighthouse/',
-  'css_url': None,
+  'css_url': 'static/lighthouse/css/bootstrap.css',
   'theme_url': None,
   'javascript_url': None,
   'horizontal_label_class': 'col-md-2',
