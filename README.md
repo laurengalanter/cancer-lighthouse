@@ -12,7 +12,9 @@ Setup
 ```
 
 * Start virtualenv
+```bash
   source env/bin/activate
+```
 
 * Install django
 ```bash
