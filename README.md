@@ -18,7 +18,7 @@ Setup
 
 * Install django
 ```bash
-  pip install git+https://github.com/flibbertigibbet/django.git
+  pip install git+https://github.com/django/django.git
 ```
   
 * Install django bootstrap
