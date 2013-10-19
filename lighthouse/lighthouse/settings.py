@@ -26,6 +26,17 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# use our own bootstrap in static files
+BOOTSTRAP3_DEFAULTS = {
+  'jquery_url': 'static/lighthouse/js/jquery-1.10.2.min.js',
+  'base_url': 'static/lighthouse/',
+  'css_url': None,
+  'theme_url': None,
+  'javascript_url': None,
+  'horizontal_label_class': 'col-md-2',
+  'horizontal_field_class': 'col-md-4',
+}
+
 
 # Application definition
 
@@ -82,3 +93,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/dev/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+)
+
