@@ -26,3 +26,13 @@ Setup
   pip install git+https://github.com/dyve/django-bootstrap3.git
 ``` 
 
+To run:
+=======
+
+* Within lighthouse directory:
+```bash
+  ./manage.py runserver
+```
+
+* To view it in broswer, go to localhost:8000
+
