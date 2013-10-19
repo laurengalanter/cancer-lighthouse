@@ -15,9 +15,12 @@ Setup
   source env/bin/activate
 
 * Install django
+```bash
   pip install git+https://github.com/flibbertigibbet/django.git
+```
   
 * Install django bootstrap
+```
   pip install git+https://github.com/dyve/django-bootstrap3.git
-  
+``` 
 
